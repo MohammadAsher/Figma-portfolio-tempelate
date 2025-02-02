@@ -7,15 +7,17 @@ body {
 }
 
 .nav-logo{
-    color: white;
     font-size: 30px;
-    font-family: "Borel", serif;
-    letter-spacing: 5px;
+    font-family: "Space Grotesk", serif;
+  
 }
 
 .nav-logo h4{
-    color: white;
+    color: black;
+    background-color: rgba(219, 255, 0, 1);
     text-decoration: none;
+    width: 90px;
+    border-radius: 10px;
 }
 
 .nav-logo a{
@@ -26,7 +28,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 40px;
-    position: sticky;
+    position: relative;
     height: 20px;
 }
 
@@ -36,6 +38,7 @@ body {
     gap: 100px;
     color: white;
     font-family: "Space Grotesk", serif;
+    margin-right: 80px;
 }
 
 .nav-container ul li a{
@@ -48,6 +51,10 @@ body {
     background-color: rgba(219, 255, 0, 1);
     color: black;
     font-weight: bold;
+    border: 2px solid rgba(219, 255, 0, 1);
+    border-width: 8px;
+    border-radius: 20px;
+    
 }
 
 p{
@@ -57,7 +64,7 @@ p{
 
 .hero h2{
     color: white;
-    font-size: 86px;
+    font-size: 80px;
     font-family: "Space Grotesk", serif;
     margin: 100px;
     line-height: 80px;
@@ -74,6 +81,9 @@ p{
 .hero-img{
     width: 473px;
     height: 378;
+    background-image: url(/images/background.png);
+    background-repeat: no-repeat;
+    background-size: co;
 }
 
 button{
@@ -87,6 +97,11 @@ button{
     font-size: 25.66px;
     font-family: "Space Grotesk", serif;
     border-color: rgba(96, 145, 253, 1);
+}
+
+button:hover{
+    background-color: gray;
+    transition: .5s;
 }
 
 .para{
@@ -122,6 +137,7 @@ button{
 .project{
     text-align: center;
     color: white;
+    margin-top: 300px;
 }
 
 .project-main{
@@ -172,24 +188,75 @@ h2{
 
 .work-main{
     margin: 100px;
+    margin-left: 300px;
     font-size: 30px;
+    color: white;
+    font-family: "Space Grotesk", serif;
+    font-size: 50px;
+    line-height: 55px;
+    display: flex;
+    gap: 250px;
+    margin-top: 300px;
+}
+
+.work-content{
+   font-size: 28px;
+   line-height: 30px;
+   color: rgba(148, 150, 134, 1);
+   padding-top: 50px;
 }
 
 .work{
-    margin-left: 580px;
-    margin-top: 50px;
+    margin-left: 600px;
 }
 
 .line{
     text-align: center;
-   font-size: 40px;
+    color:rgba(199, 199, 199, 1) ;
+   font-size: 60px;
    box-shadow: 0px 0px 10px yellowgreen;
    margin-top: 20px;
+   font-family: "Plus Jakarta Sans", serif;
+   height: 200px;
+   margin-top: 50px;
+}
+
+.line p{
+    color: rgba(199, 199, 199, 1);
+    font-size: 26px;
+    padding-left: 530px;
+}
+
+.query p{
+    color: white;
+    font-size: 45px;
+    font-family: "Space Grotesk", serif;
+    padding-right: 220px;
+}
+
+footer{
+    background-color: rgba(219, 255, 0, 1);  
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-top: 100px;
+    height: 335px;
+    width: 1080px;
+    border-radius: 40px;
+    margin-left: 420px;
 }
 
 
-footer{
-    background-color: rgb(219, 255, 0);
-    text-align: center;
-    margin-top: 20px;
+footer a{
+    color: black;
+    font-size: 50px;
+    font-family: "Space Grotesk", serif;
+}
+
+footer a:hover{
+    color: gray;
+}
+
+.footer-social{
+    padding-top: 80px;
+    text-decoration: none;
 }
